@@ -28,7 +28,7 @@ set t_Co=256   " This is may or may not needed.
 set background=dark
 colorscheme seoul256
 
-" Make split switching a lil easier, for left and right.
+" Make split switching easier (for left and right).
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
 
@@ -55,5 +55,3 @@ let g:lightline = {
       \ }
 
 autocmd BufWritePre * %s/\s\+$//e
-
-
